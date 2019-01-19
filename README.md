@@ -16,17 +16,17 @@ http://www.dcjingsai.com/common/cmpt/%E2%80%9C%E8%BE%BE%E8%A7%82%E6%9D%AF%E2%80%
 - fire
 ### 文件说明
 ```
-emb_build/: word2vec训练词／字向量
-models/: 深度学习模型
-result/: 生成测试集提交csv
-val_result/: 模型融合
-script/: 脚本文件
-config.py: 模型配置
-fine_tune.py: 模型fine tune
-gen_result.py: 生成模型在测试集上的预测概率结果
-test_ensemble.py: 生成模型在验证集上的预测概率结果
-data.py: 数据预处理
-main.py: 模型训练
+emb_build/: word2vec to train word and character vector
+models/: model
+result/: generate submission file
+val_result/: essembling
+script/: script to run
+config.py: configuration
+fine_tune.py: finetune the model
+gen_result.py: generate the result on the test dataset
+test_ensemble.py: generate the result on the dev dataset
+data.py: pre-process
+main.py: train model
 ```
 
 ### 词／字向量训练
